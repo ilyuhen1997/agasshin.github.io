@@ -1,0 +1,77 @@
+/* Reset CSS */
+
+html, body {
+  z-index: 1;
+  padding: 0;
+  margin: 0;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  height: 100%;
+  font-family:'Courier New', Courier, monospace;
+}
+
+body {
+  background-image: url("../img/background.svg");
+  /* Full height */
+  width: 100%;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+ }
+
+ div {
+  margin: auto;
+  justify-content: center;
+}
+
+.header {
+  padding: 3px;
+  text-align: center;
+  background: #bebebe;
+  color: white;
+  font-size: 16px;
+}
+
+.container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  user-select: none;
+  pointer-events: none;
+}
+img {
+  position: absolute;
+  max-width: 200px;
+  max-height: 200px
+}
+
+
+*, *:after, *:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+ul, li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+h2{
+  display: none;
+}
+
+/* Your CSS */
+#image {
+  display: none;
+}
+
+/* Media Queries */
+
