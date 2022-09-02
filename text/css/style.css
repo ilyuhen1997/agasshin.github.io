@@ -51,33 +51,20 @@ img {
 }
 
 
-/* Elispes */
-
-.ellipses {
+.text {
   position: relative;
+  
 }
 
-.el1 {
-  position: absolute;
-  left: 40vw;
-  top: 55vh;
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
 }
 
-.el2 {
-  position: absolute;
-  left: 30vw;
-  top: 10vh;
-}
-.el3 {
-  position: absolute;
-  left: 60vw;
-  top: 20vh;
-}
-.el4 {
-  position: absolute;
-  left: 10vw;
-  top: 10vh;
-}
+
 
 /* Flowers */
 
@@ -85,26 +72,6 @@ img {
   position: relative;
 }
 
-.flower1 {
-  position: absolute;
-  left: 27vw;
-  top: 25vh;
-}
-.flower2 {
-  position: absolute;
-  left: 40vw;
-  top: 55vh;
-}
-.flower3 {
-  position: absolute;
-  left: 70vw;
-  top: 75vh;
-}
-.flower4 {
-  position: absolute;
-  left: 40vw;
-  top: 35vh;
-}
 
 
 
