@@ -1,18 +1,18 @@
+console.log("Hello");
+$(".flip-card").click(function(){
 
-/* Access image by id and change
-            the display property to block*/
-       
+    $(".flip-card").removeClass("flip-card-flipped");
+
+    $.each($(this)[0].classList, function (key, value) {
+        if (value.indexOf("group-") === 0) {
+            console.log("."+value);
+            $("."+value).addClass("flip-card-flipped");
+        }
+    });
+
+});
  
-          
-
-function show() {
- 
-	/* Get image and change value
-	of src attribute */
-            /* Access image by id and change
-            the display property to block*/
-            document.getElementById('image')
-                    .style.display = "block";
-}
-
-// Array with all our images
+$('.flip-card').tilt({
+    glare: true,
+    maxGlare: .5
+})
