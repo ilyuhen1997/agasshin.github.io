@@ -1,0 +1,109 @@
+/* article */
+.author-date {
+  text-align: right;
+  font-family: var(--title-font-family);
+  font-size: 0.9rem;
+  padding: 1rem 1rem;
+
+  .date {
+    border-left: 1px solid var(--main-blue);
+    margin-left: 1rem;
+    padding-left: 1rem;
+  }
+
+  .download {
+    border-left: 1px solid var(--main-blue);
+    margin-left: 1rem;
+    padding-left: 1rem;
+  }
+}
+
+.essay-body {
+  position: relative;
+  margin-left: 10vw;;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  width: 55%;
+
+  background-color: rgba(240, 248, 255, 0.672);
+  border-radius: var(--border-radius);
+  .essay-header {
+    margin-bottom: 1rem;
+    h1 {
+      font-size: 6rem;
+      padding: 1rem 5rem;
+      line-height: 5rem;
+      text-align: center;
+    }
+  }
+
+
+}
+
+@media (max-width: 667px) {
+  main p {
+    text-align: left;
+    hyphens: none;
+  }
+}
+
+
+
+.essay-body-inner{
+  padding: 0 5rem;
+}
+
+.essay-body .essay-body-inner {
+  width: 100%;
+  font-size: var(--font-size--article);
+
+  .essay-question {
+    font-size: var(--font-size--article);
+    font-family: var(--title-font-family);
+  }
+
+  .essay {
+    width: 100%;
+    overflow-x: hidden;
+  }
+
+  p {
+    margin: auto;
+    hyphens: auto;
+    line-height: var(--line-height);
+    word-spacing: var(--word-spacing);
+  }
+}
+
+.text-navigation {
+  display: flex;
+  font-family: var(--title-font-family);
+  font-size: 0.9rem;
+  justify-content: space-around;
+  padding: 1rem 1rem;
+
+  .all-texts {
+    flex: 50%;
+  }
+}
+
+.image-container{
+  position: fixed;
+  width: 20vw;
+  top: 15rem;
+  right: 8rem;
+  
+  img{
+    position: sticky;
+    width: 20rem;
+    top: 30rem;
+    filter: blur(40px);
+    transition: filter 1s;
+    border-radius: var(--border-radius);
+
+    &:hover {
+      filter: none;
+  }
+
+  }
+}
